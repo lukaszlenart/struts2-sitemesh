@@ -1,0 +1,1 @@
+<p>This is the menu!  If you see me, then s.action worked.</p>

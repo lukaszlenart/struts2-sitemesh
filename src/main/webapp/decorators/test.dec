@@ -1,0 +1,16 @@
+<html>
+    <head>
+         <title>Sitemesh-based page</title>
+         ${head}
+     </head>
+     <body>
+         Test
+         ${body}
+         Static content
+         <!-- @s.action name="menu" executeResult="true"/ -->
+         More static content
+         <p>
+             If you see this message, then you see a Sitemesh decoration.
+         </p>
+	</body>       
+</html>

@@ -1,0 +1,5 @@
+<decorators defaultdir="/decorators">
+    <decorator name="test" page="test.dec" encoding="UTF-8">
+        <pattern>/sactionwithsitemesh.action</pattern>
+    </decorator>
+</decorators>
