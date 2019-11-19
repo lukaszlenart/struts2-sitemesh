@@ -7,14 +7,14 @@
     <display-name>Struts Blank</display-name>
 
     <listener>
-        <listener-class>org.apache.struts2.dispatcher.ng.listener.StrutsListener</listener-class>
+        <listener-class>org.apache.struts2.dispatcher.listener.StrutsListener</listener-class>
     </listener>
 
     <!---->
     <filter>
         <filter-name>struts-prepare</filter-name>
         <filter-class>
-            org.apache.struts2.dispatcher.ng.filter.StrutsPrepareFilter
+            org.apache.struts2.dispatcher.filter.StrutsPrepareFilter
         </filter-class>
     </filter>
 <!--
@@ -34,7 +34,7 @@
     <filter>
         <filter-name>struts-execute</filter-name>
         <filter-class>
-            org.apache.struts2.dispatcher.ng.filter.StrutsExecuteFilter
+            org.apache.struts2.dispatcher.filter.StrutsExecuteFilter
         </filter-class>
     </filter>
 
