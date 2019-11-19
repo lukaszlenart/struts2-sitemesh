@@ -9,7 +9,7 @@
     <name>struts-sitemesh</name>
 
     <properties>
-        <struts2.version>2.3.16.1</struts2.version>
+        <struts2.version>2.5.20</struts2.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
